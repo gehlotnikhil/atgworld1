@@ -53,13 +53,13 @@ function Navbar() {
                                     <input style={{ borderColor: "#e0e0e0", width: "100%", padding: "0.5rem 0.7rem", backgroundColor: "#c5c5c51c" }} type="password" placeholder='Password' />
                                     <input className={`d-${!(Sign === "none") ? "none" : "inline-block"}`} style={{ borderColor: "#e0e0e0", width: "100%", padding: "0.5rem 0.7rem", backgroundColor: "#c5c5c51c" }} type="password" placeholder='Confirm Password' />
                                     <button onClick={submit} style={{ padding: "0.5rem 0.7rem", backgroundColor: "#4040ff", color: "white", fontWeight: "bold", margin: "1rem 0rem", borderRadius: "5rem", border: "none", width: "100%" }} type="submit"> Create Account</button>
-                                    <button style={{ borderColor: "#e0e0e0", width: "100%", padding: "0.5rem 0.7rem", backgroundColor: "#c5c5c51c" }} ><img  alt="..." src="../image/facebook.png" style={{ height: "1.3rem" }}  /> Sign up With Facebook</button>
-                                    <button style={{ borderColor: "#e0e0e0", width: "100%", padding: "0.5rem 0.7rem", backgroundColor: "#c5c5c51c" }} ><img  alt="..." src="../image/google.png" style={{ height: "1.3rem" }}  /> Sign up with Google</button>
+                                    <button style={{ borderColor: "#e0e0e0", width: "100%", padding: "0.5rem 0.7rem", backgroundColor: "#c5c5c51c" }} ><img  alt="..." src="../images/facebook.png" style={{ height: "1.3rem" }}  /> Sign up With Facebook</button>
+                                    <button style={{ borderColor: "#e0e0e0", width: "100%", padding: "0.5rem 0.7rem", backgroundColor: "#c5c5c51c" }} ><img  alt="..." src="../images/google.png" style={{ height: "1.3rem" }}  /> Sign up with Google</button>
                                 </form>
                             </div>
                             {/* Image */}
                             <div className='div-image' style={{ width: "50%", height: "100%", display: "inline-block" }}>
-                                <img  alt="..." className='dive-image-1' src="../image/formright.png" height="85%" width="100%"  />
+                                <img  alt="..." className='dive-image-1' src="../images/formright.png" height="85%" width="100%"  />
                                 <div className='normal-text' style={{ height: "15%" }}>By signing up, you agree to our Terms & conditions. Privacy policy</div>
                             </div>
 
@@ -75,7 +75,7 @@ function Navbar() {
 
                 {/* image */}
                 <div className="d-flex align-content-center flex-wrap">
-                    <img  alt="..." src="../image/atg_logo2.png" height={"35px"} />
+                    <img  alt="..." src="../images/atg_logo2.png" height={"35px"} />
                 </div>
                 <div className="d-flex align-content-center flex-wrap">
 

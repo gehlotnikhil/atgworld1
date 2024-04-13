@@ -5,7 +5,7 @@ import RightInfo from './RightInfo'
 function Main() {
     return (
         <>
-        <img  alt="..." src="../image/cse.png" style={{width:"100%",height:"30rem"}}  />
+        <img  alt="..." src="../images/cse.png" style={{width:"100%",height:"30rem"}}  />
             <div style={{ display: "flex", flexDirection: "row", width: "100%" ,marginTop:"1rem"}} className=' option'>
                 <div style={{ flexWrap: "nowrap", width: "70%" }} className=' d-flex align-items-center'>
                     <p style={{ color: "black", textDecoration: "none", fontWeight: "bold", marginLeft: "18%" }} >All Post</ p>
@@ -16,7 +16,7 @@ function Main() {
                 </div>
                 <div className='' style={{ display: "flex", flexDirection: "row", flexWrap: "nowrap", width: "30%" }}>
                     <button style={{ marginLeft: "3%", border: "1px", borderColor: "black", borderStyle: "solid", padding: "0.5rem 1rem 0.5rem 1rem",borderRadius:"0.5rem", fontWeight: "bold" }}  >Write a Post</button>
-                    <button style={{ marginLeft: "3%", border: "1px", borderColor: "black", borderStyle: "solid", padding: "0.5rem 1rem 0.5rem 1rem",borderRadius:"0.5rem", backgroundColor: "blue", color: "white" }} ><img  alt="..." src="../image/contact2.png" height={"19px"}  />Join Group</button>
+                    <button style={{ marginLeft: "3%", border: "1px", borderColor: "black", borderStyle: "solid", padding: "0.5rem 1rem 0.5rem 1rem",borderRadius:"0.5rem", backgroundColor: "blue", color: "white" }} ><img  alt="..." src="../images/contact2.png" height={"19px"}  />Join Group</button>
                 </div>
 
             </div>
